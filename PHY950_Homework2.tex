@@ -32,17 +32,6 @@
 \section{Problem 2: Distribution of Product of Uniform Random Variables}
 \label{sec:problem2}
 
-Suppose two independent random variables $x$ and $y$ are both uniformly distributed between zero and 1, i.e., the PDF $g(x)$ is given by:
-\begin{equation}
-g(x) = \begin{cases}
-1, & 0 < x < 1 \\
-0, & \text{otherwise}
-\end{cases}
-\end{equation}
-and similarly for the PDF $h(y)$.
-
-\textbf{(a)} Using Cowan equation (1.35), show that the PDF $f(z)$ for $z = xy$ is:
-
 \subsubsection*{Part (a): Direct Method}
 Cowan equation (1.35) for the PDF of $z = xy$ is:
 \begin{equation}
@@ -131,14 +120,6 @@ Figure~\ref{fig:problem2} shows the comparison between the analytical PDF $f(z) 
 \section{Problem 3: Programming Exercise}
 \label{sec:problem3}
 
-Create a program with four parts:
-\begin{enumerate}
-    \item[(a)] Create a main function and a "Hello World" function.
-    \item[(b)] Generate a histogram with 10,000 random entries from a Gaussian distribution with mean $\mu = 16$ and standard deviation $\sigma = 4$. Plot the histogram and return the mean.
-    \item[(c)] Create a function that takes the mean from (b), multiplies by $10^6$, takes the modulus by 10 to get integer $M$, then plots $f(x) = x + Mx^2$ over $[0, 10]$.
-    \item[(d)] Run and debug the program.
-\end{enumerate}
-
 \subsection*{Solution}
 \begin{verbatim}
 def hello_world():
@@ -189,13 +170,6 @@ The program executed successfully with no compilation or runtime errors. All fun
 \section{Problem 4: Expectation and Variance Properties}
 \label{sec:problem4}
 
-Consider a random variable $x$ and constants $a$ and $b$. Show that:
-\begin{align}
-\mathbb{E}[ax + b] &= a\mathbb{E}[x] + b \\
-\mathbb{V}[ax + b] &= a^2 \mathbb{V}[x]
-\end{align}
-where $\mathbb{E}[x]$ is the expectation value and $\mathbb{V}[x]$ is the variance.
-
 \subsection*{Solution}
 By definition, $\mathbb{E}[g(x)] = \int_{-\infty}^{\infty} g(x) f(x) \, dx$:
 \begin{align}
@@ -243,12 +217,6 @@ The numerical verification confirms the analytical results to machine precision.
 %===============================================================================
 \section{Problem 5: Error Propagation}
 \label{sec:problem5}
-
-Suppose the independent random variables $x_1$ and $x_2$ have means $\mu_1 = \mu_2 = 10$ and variances $\sigma_1^2 = \sigma_2^2 = 1$. Use error propagation to find the variance of:
-\begin{equation}
-y = \frac{x_1^2}{x_2}
-\end{equation}
-Comment on the validity of the procedure if one had $\mu_2 = 1$.
 
 \subsection*{Solution}
 For independent variables, the variance of $y = f(x_1, x_2)$ is:
@@ -330,12 +298,6 @@ When $\mu_2 = 1$:
 %===============================================================================
 \section{Problem 6: Random Number Generation}
 \label{sec:problem6}
-
-Create a program that generates random numbers according to the function:
-\begin{equation}
-f(x) = A \sin(\pi x)
-\end{equation}
-where $x \in [0, 1]$ and $A$ is determined such that the PDF has unit probability. Use the transformation method (Cowan, Section 3.2).
 
 \subsection*{Solution}
 \begin{align}
