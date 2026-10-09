@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Problem 2: Distribution of Product of Uniform Random Variables}{2}{section.1}%
+\contentsline {section}{\numberline {2}Problem 3: Programming Exercise}{4}{section.2}%
+\contentsline {section}{\numberline {3}Problem 4: Expectation and Variance Properties}{5}{section.3}%
+\contentsline {section}{\numberline {4}Problem 5: Error Propagation}{7}{section.4}%
+\contentsline {section}{\numberline {5}Problem 6: Random Number Generation}{9}{section.5}%
+\contentsline {section}{Summary}{11}{section*.32}%
