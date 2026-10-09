@@ -32,7 +32,6 @@
 \section{Problem 2: Distribution of Product of Uniform Random Variables}
 \label{sec:problem2}
 
-\subsection*{Problem Statement}
 Suppose two independent random variables $x$ and $y$ are both uniformly distributed between zero and 1, i.e., the PDF $g(x)$ is given by:
 \begin{equation}
 g(x) = \begin{cases}
@@ -43,16 +42,6 @@ g(x) = \begin{cases}
 and similarly for the PDF $h(y)$.
 
 \textbf{(a)} Using Cowan equation (1.35), show that the PDF $f(z)$ for $z = xy$ is:
-\begin{equation}
-f(z) = \begin{cases}
--\ln z, & 0 < z < 1 \\
-0, & \text{otherwise}
-\end{cases}
-\end{equation}
-
-\textbf{(b)} Find the same result using Cowan equations (1.37) and (1.38) by defining an additional function $u = x$.
-
-\subsection*{Solution}
 
 \subsubsection*{Part (a): Direct Method}
 Cowan equation (1.35) for the PDF of $z = xy$ is:
@@ -142,7 +131,6 @@ Figure~\ref{fig:problem2} shows the comparison between the analytical PDF $f(z) 
 \section{Problem 3: Programming Exercise}
 \label{sec:problem3}
 
-\subsection*{Problem Statement}
 Create a program with four parts:
 \begin{enumerate}
     \item[(a)] Create a main function and a "Hello World" function.
@@ -152,8 +140,6 @@ Create a program with four parts:
 \end{enumerate}
 
 \subsection*{Solution}
-
-\subsubsection*{Part (a): Hello World}
 \begin{verbatim}
 def hello_world():
     print("Hello World")
@@ -203,7 +189,6 @@ The program executed successfully with no compilation or runtime errors. All fun
 \section{Problem 4: Expectation and Variance Properties}
 \label{sec:problem4}
 
-\subsection*{Problem Statement}
 Consider a random variable $x$ and constants $a$ and $b$. Show that:
 \begin{align}
 \mathbb{E}[ax + b] &= a\mathbb{E}[x] + b \\
@@ -212,8 +197,6 @@ Consider a random variable $x$ and constants $a$ and $b$. Show that:
 where $\mathbb{E}[x]$ is the expectation value and $\mathbb{V}[x]$ is the variance.
 
 \subsection*{Solution}
-
-\subsubsection*{Part 1: Expectation}
 By definition, $\mathbb{E}[g(x)] = \int_{-\infty}^{\infty} g(x) f(x) \, dx$:
 \begin{align}
 \mathbb{E}[ax + b] &= \int_{-\infty}^{\infty} (ax + b) f(x) \, dx \\
@@ -261,7 +244,6 @@ The numerical verification confirms the analytical results to machine precision.
 \section{Problem 5: Error Propagation}
 \label{sec:problem5}
 
-\subsection*{Problem Statement}
 Suppose the independent random variables $x_1$ and $x_2$ have means $\mu_1 = \mu_2 = 10$ and variances $\sigma_1^2 = \sigma_2^2 = 1$. Use error propagation to find the variance of:
 \begin{equation}
 y = \frac{x_1^2}{x_2}
@@ -269,8 +251,6 @@ y = \frac{x_1^2}{x_2}
 Comment on the validity of the procedure if one had $\mu_2 = 1$.
 
 \subsection*{Solution}
-
-\subsubsection*{Error Propagation Formula}
 For independent variables, the variance of $y = f(x_1, x_2)$ is:
 \begin{equation}
 \sigma_y^2 = \left( \frac{\partial y}{\partial x_1} \right)^2 \sigma_1^2 + \left( \frac{\partial y}{\partial x_2} \right)^2 \sigma_2^2
@@ -351,7 +331,6 @@ When $\mu_2 = 1$:
 \section{Problem 6: Random Number Generation}
 \label{sec:problem6}
 
-\subsection*{Problem Statement}
 Create a program that generates random numbers according to the function:
 \begin{equation}
 f(x) = A \sin(\pi x)
@@ -359,8 +338,6 @@ f(x) = A \sin(\pi x)
 where $x \in [0, 1]$ and $A$ is determined such that the PDF has unit probability. Use the transformation method (Cowan, Section 3.2).
 
 \subsection*{Solution}
-
-\subsubsection*{Step 1: Normalization Constant}
 \begin{align}
 \int_{0}^{1} A \sin(\pi x) \, dx &= 1 \\
 A \left[ -\frac{\cos(\pi x)}{\pi} \right]_{0}^{1} &= 1 \\
@@ -419,15 +396,6 @@ Generated $N = 100,000$ samples using:
 \section*{Summary}
 \addcontentsline{toc}{section}{Summary}
 
-All problems have been completed successfully:
-\begin{itemize}
-    \item \textbf{Problem 2:} Verified $f(z) = -\ln z$ for $z = xy$ using both direct and Jacobian methods.
-    \item \textbf{Problem 3:} Implemented and executed a modular Python program with Gaussian histogram and function plotting.
-    \item \textbf{Problem 4:} Proved expectation and variance properties analytically and verified numerically.
-    \item \textbf{Problem 5:} Calculated $\sigma_y^2 = 5.0$ for $y = x_1^2/x_2$ and explained why error propagation fails when $\mu_2 = 1$.
-    \item \textbf{Problem 6:} Generated random numbers following $f(x) = \frac{\pi}{2} \sin(\pi x)$ using the transformation method, verified with KS test.
-\end{itemize}
-
-All code is well-commented, modular, and includes both analytical derivations and numerical verification.
+All problems have been completed successfully.
 
 \end{document}

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1791564454.59761 "PHY950_Homework2.tex" "PHY950_Homework2.pdf" "PHY950_Homework2" 1791564455.33456 0
+["pdflatex"] 1791566434.50298 "PHY950_Homework2.tex" "PHY950_Homework2.pdf" "PHY950_Homework2" 1791566435.22124 0
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -102,9 +102,9 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1790493481 5609353 13863466be7e2f3222bf573e23e6e97d ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1790493640 3668325 b21959905b646eaa58108a4d7cc40ab2 ""
   "/usr/local/texlive/2026/texmf.cnf" 1790493469 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "PHY950_Homework2.aux" 1791564455.28467 3644 0dec3ff5e3ca403a4d8bff7806a85861 "pdflatex"
-  "PHY950_Homework2.out" 1791564455.28867 1374 af3000b9bcaef14ef67ec86112855d20 "pdflatex"
-  "PHY950_Homework2.tex" 1791564441.9327 15702 43bdcb4a167b6dfac568c49c6ba137dc ""
+  "PHY950_Homework2.aux" 1791566435.17303 3644 50a00f88d82a702439cff06491aab4ab "pdflatex"
+  "PHY950_Homework2.out" 1791566435.17303 1374 399b266f9e904f3aa578a2e8dd7b5edb "pdflatex"
+  "PHY950_Homework2.tex" 1791566432.51704 14338 1846d79b3d449421a72a3a7a123c6242 ""
   "problem2_result.png" 1791495205.14795 71718 507346d10eeeedde868f3584a40d465f ""
   "problem3b_histogram.png" 1791495206.46794 75799 ba4bc8a5812ad8d73c866432d9fc0f4c ""
   "problem3c_function.png" 1791495206.74394 50003 4d649d1c2e98ae692d284e74514fd72f ""
