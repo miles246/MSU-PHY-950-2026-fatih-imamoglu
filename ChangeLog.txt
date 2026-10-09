@@ -1,0 +1,11 @@
+# PHY950 Homework 2 - ChangeLog
+
+## Changes Made
+
+### October 8, 2026
+- Created ChangeLog.txt to document this homework submission
+- Added Homework2 directory with solutions for Problems 3 and 6
+- Initial commit of all homework files
+
+### Author: Fatih Imamoglu
+Email: fi23@msu.edu
